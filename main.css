@@ -1,0 +1,44 @@
+:root {
+    --clr-primary-200: wheat;
+    --clr-primary-400: brown;
+    --clr-neutral-100: white;
+    --clr-primary-500: black;
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Space Mono", "Times-new romans";
+}
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+h1,
+h2,
+h3 {
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    line-height: 1;
+}
+.bg-light {
+    background-color: var(--clr-primary-200);
+}
+.bg-dark {
+    background-color: var(--clr-primary-500);
+}
+.bg-primary {
+    background-color: var(--clr-primary-400);
+}
+img {
+    
+    width: 30rem;
+   
+}
+
+
